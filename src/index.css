@@ -1,0 +1,15 @@
+/* 🌈 Global background for all pages */
+body {
+  background: linear-gradient(135deg, #e0f7fa, #f0f8ff, #ffffff);
+  background-attachment: fixed; /* keeps gradient steady while scrolling */
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: #222;
+  transition: background 0.3s ease;
+}
+
+/* Optional: smooth scrolling & consistent look */
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
